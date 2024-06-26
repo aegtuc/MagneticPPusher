@@ -64,7 +64,7 @@ Every how many increments writes output (every)
 -------------------------------------------------------------------------------------------
 Initial Possition
   Radius [AU]       |  z coordinate [AU]  |  Angle [deg.] w.r.t x+ (counterclockwise)
-   0.391662         ,      2.0            ,        0.0
+   0.391662         ,      0.0            ,        0.0
 -------------------------------------------------------------------------------------------
 Initial Velocity
  Direcc angle [deg.] w.r.t radial axis, from       Azimut [deg.] with respect to x+
