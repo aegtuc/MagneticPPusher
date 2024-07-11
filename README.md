@@ -9,6 +9,7 @@ The code is divided into 3 files:
 -	Main.f90
 -	constantsModule.f90
 -	subsfuncsModule.f90
+
 An elemental batch file is included to compile on Windows with the GNU/gfortran compiler. Although it has also been tested with Intel/Fortran.  
 A typical data input file “model.pshr” is also included.
 Once compiled, the program can be run from the location of the input file. The results file will be written to the same location.
