@@ -14,10 +14,11 @@ An elemental batch file is included to compile on Windows with the GNU/gfortran 
 A typical data input file “model.pshr” is also included.
 Once compiled, the program can be executed from the location of the input file. The results file will be written to the same location.
 The result file is a csv file with 7 columns, time, particle possition (x,y,z) and magnetic field at those locations (Bx,By,Bz).
-In this version, the format of the input file is not flexible in the sense that the order of the parameters as well as the number of lines between them must be respected. Dummy lines were used as comments describing what each parameter represents.
+
+In this program version, the format of the input file is not flexible in the sense that the order of the parameters as well as the number of lines between them must be respected. Dummy lines were used as comments describing what each parameter represents.
  
 Any questions or comments, please do not hesitate to contact me: eguennam@herrera.unt.edu.ar
 
 References:
-Boris, J. P. (1970). Relativistic plasma simulation-optimization of a hybrid code. Fourth conf. numerical simulations of plasmas (Vol. 3).
-Ripperda, B., Bacchini, F., Teunissen, J., Xia, C., Porth, O., Sironi, L., Lapenta, G., Keppens, R. (2018, mar). A comprehensive comparison of relativistic particle integrators. The Astrophysical Journal Supplement Series, 235 (1), 21.
+- Boris, J. P. (1970). Relativistic plasma simulation-optimization of a hybrid code. Fourth conf. numerical simulations of plasmas (Vol. 3).
+- Ripperda, B., Bacchini, F., Teunissen, J., Xia, C., Porth, O., Sironi, L., Lapenta, G., Keppens, R. (2018, mar). A comprehensive comparison of relativistic particle integrators. The Astrophysical Journal Supplement Series, 235 (1), 21.
