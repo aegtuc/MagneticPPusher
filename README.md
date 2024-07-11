@@ -12,7 +12,7 @@ The code is divided into 3 files:
 
 An elemental batch file is included to compile on Windows with the GNU/gfortran compiler. Although it has also been tested with Intel/Fortran.  
 A typical data input file “model.pshr” is also included.
-Once compiled, the program can be run from the location of the input file. The results file will be written to the same location.
+Once compiled, the program can be executed from the location of the input file. The results file will be written to the same location.
 The result file is a csv file with 7 columns, time, particle possition (x,y,z) and magnetic field at those locations (Bx,By,Bz).
 In this version, the format of the input file is not flexible in the sense that the order of the parameters as well as the number of lines between them must be respected. Dummy lines were used as comments describing what each parameter represents.
  
